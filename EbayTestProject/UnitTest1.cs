@@ -106,11 +106,17 @@ namespace EbayTestProject
             //browserFactory.LoadApplication(chrome, "https://www.ebay.com/");
             //browserFactory.LoadApplication(edge, "https://www.ebay.com/");
             //browserFactory.LoadApplication(firefox, "https://www.ebay.com/");
-            
             EbayTester tester = new EbayTester(chrome);
-            //tester.HomePage.SearchBar.setText("mouse");
-            //tester.HomePage.SearchButton.Click();
+            tester.HomePage.SearchBar.setText("mouse");
+            tester.HomePage.SearchButton.Click();
+            tester.SearchPage.ResultList.PrintItemsWithPriceMore50();
             Assert.Pass();
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            browserFactory.CloseAllDrivers();
         }
     }
     
