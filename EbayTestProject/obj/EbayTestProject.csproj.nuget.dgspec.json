@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\C# projects\\EbayTestProject\\EbayTestProject\\EbayTestProject.csproj": {}
+    "C:\\Users\\User\\source\\repos\\EbayTester\\EbayTestProject\\EbayTestProject.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\C# projects\\EbayTestProject\\EbayTestProject\\EbayTestProject.csproj": {
+    "C:\\Users\\User\\source\\repos\\EbayTester\\EbayTestProject\\EbayTestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\C# projects\\EbayTestProject\\EbayTestProject\\EbayTestProject.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\EbayTester\\EbayTestProject\\EbayTestProject.csproj",
         "projectName": "EbayTestProject",
-        "projectPath": "D:\\Projects\\C# projects\\EbayTestProject\\EbayTestProject\\EbayTestProject.csproj",
-        "packagesPath": "C:\\Users\\roma0\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\C# projects\\EbayTestProject\\EbayTestProject\\obj\\",
+        "projectPath": "C:\\Users\\User\\source\\repos\\EbayTester\\EbayTestProject\\EbayTestProject.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\EbayTester\\EbayTestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\roma0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
